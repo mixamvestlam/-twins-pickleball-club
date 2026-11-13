@@ -1,0 +1,8 @@
+{
+  // Cloudflare Workers: раздаём собранную папку dist как статический сайт
+  "name": "twins-pickleball-club",
+  "compatibility_date": "2026-11-01",
+  "assets": {
+    "directory": "./dist"
+  }
+}

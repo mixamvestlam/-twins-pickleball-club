@@ -7,4 +7,4 @@
 - Фото, шрифты, иконка: `public/`
 - Сборка: `node build.mjs` → папка `dist/`
 
-Cloudflare Pages: build command `node build.mjs`, output directory `dist`.
+Публикация: Cloudflare Workers собирает сайт из ветки `main` (`npm run build`, затем `npx wrangler deploy`; настройки в `wrangler.jsonc`).
